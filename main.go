@@ -15,6 +15,6 @@ func main() {
 	if val := os.Getenv("PORT"); val != "" {
 		listenPort = ":" + val
 	}
-	http.HandleFunc("/hello", hello)
+	http.HandleFunc("/", hello)
 	http.ListenAndServe(listenPort, nil)
 }
