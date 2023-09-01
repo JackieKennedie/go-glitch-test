@@ -1,0 +1,9 @@
+{
+    "name": "hello-golang",
+    "version": "0.0.1",
+    "description": "A simple Go HTTP application.",
+    "scripts": {
+      "start": "go run main.go"
+    }
+  }
+  
